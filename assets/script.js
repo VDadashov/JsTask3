@@ -35,4 +35,7 @@ inp.addEventListener("keyup", (event) => {
     if (event.key === "Enter") {
       additems();
     }
+    else if(event.key == "BackSpace"){
+        removeItems();
+    }
   });
